@@ -1,0 +1,80 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.createUser{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px double rgb(255, 0, 119);
+    outline: none;
+}
+
+.createUser h2{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+button{
+    width: 100px;
+    padding: 12px 18px;
+    background: linear-gradient(to right, rgb(255, 0, 119), rgb(1, 204, 255));
+    background-size: 100%;
+    background-position: center;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+button:hover{
+    background-position: right;
+    background-size: 200%;
+}
+
+
+.list{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: rgba(165, 42, 42, 0.596);
+    border-radius: 20px;
+}
+
+.list-item{
+    width: fit-content;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.514);
+    margin-bottom: 10px;
+    height: 180px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
